@@ -28,13 +28,25 @@ html,
 body {
 	height: 100%;
 	min-width: 320px;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: grey;
+}
+
+
+/* Просим теги форм наследовать семейсво шрифта  */
+input,
+button,
+textarea {
+	font-family: sans-serif;
+	font-size: inherit;
 }
 
 /* Просим теги форм наследовать семейсво шрифта  */
 input,
 button,
 textarea {
-	font-family: inherit;
+	font-family: sans-serif;
 	font-size: inherit;
 }
 
@@ -94,4 +106,5 @@ h6 {
 
 .wrapper {
 	min-height: 100%;
+	overflow: hidden;
 }
